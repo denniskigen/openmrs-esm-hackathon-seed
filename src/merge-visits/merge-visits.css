@@ -1,0 +1,56 @@
+.merge-visits-header {
+  font-size: 1.3em;
+}
+
+.header-text {
+  font-size: 0.9em;
+}
+
+table, th, td {
+  background: #f3f3f3;
+  border: 1px solid #dddddd;
+  padding: 0 5px;
+}
+
+th {
+  font-size: 0.9em;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+}
+
+form {
+  overflow: hidden;
+  display: block;
+  margin-top: 0em;
+}
+
+form input, .form input {
+  font-size: 0.9em;
+  color: #363463;
+  padding: 5px 10px;
+  margin: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.cancel {
+  border-radius: 3px;
+  background-color: #ff3d3d;
+  border: #ff3d3d 1px solid;
+  padding: 8px 20px;
+  display: inline-block;
+  line-height: 1.2em;
+  color: white;
+  cursor: pointer;
+  min-width: 0;
+  max-width: 300px;
+  text-decoration: none;
+  max-width: 250px;
+  min-width: 0;
+  margin-right: 10px;
+}

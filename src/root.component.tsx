@@ -1,7 +1,14 @@
 import React from "react";
+import MergeVisits from "./merge-visits/merge-visits";
 
 export default function Root(props: RootProps) {
-  return <div className="test">Hackathon seed is working!</div>;
+  return (
+    <div>
+      <MergeVisits patientUuid={props.patientUuid} />
+    </div>
+  );
 }
 
-type RootProps = {};
+type RootProps = {
+  patientUuid: string;
+};
