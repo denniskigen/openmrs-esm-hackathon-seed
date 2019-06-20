@@ -1,7 +1,14 @@
 import React from "react";
+import RelationshipsParcel from "./relationships/relationships";
 
 export default function Root(props: RootProps) {
-  return <div className="test">Hackathon seed is working!</div>;
+  return (
+    <div>
+      <RelationshipsParcel patientUuid={props.patientUuid} />
+    </div>
+  );
 }
 
-type RootProps = {};
+type RootProps = {
+  patientUuid: string;
+};

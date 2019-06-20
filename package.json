@@ -9,11 +9,6 @@
     "typescript": "tsc",
     "test": "jest --config jest.config.json"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged && npm run lint && npm test && npm run typescript"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joeldenning/openmrs-esm-hackathon-seed.git"
