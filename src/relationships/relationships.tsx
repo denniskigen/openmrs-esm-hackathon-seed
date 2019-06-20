@@ -33,14 +33,16 @@ export default function RelationshipsParcel(props: RelationshipsProps) {
   return (
     <div className="card">
       <div className="card-header">
-        Relationships
+        <h5 className="card-title">Relationships</h5>
       </div>
-      {relationships.length > 0 
-        ? (renderRelationships()) 
-        : (
-         <span>No relationships</span>
-        )
-      }
+      <div className="card-body">
+        {relationships.length > 0 
+          ? (renderRelationships()) 
+          : (
+          <span>No relationships</span>
+          )
+        }
+      </div>
     </div>
   )
   
